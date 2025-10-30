@@ -1,6 +1,6 @@
 # simple_utils.py - A tiny utility library
 
-def reverse_string(text):
+def reverse_string(text: str) -> str:
     """Reverses the characters in a string."""
     return text[::-1]
 
